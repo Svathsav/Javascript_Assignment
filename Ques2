@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title>printing contents in current window </title>
+	</head>
+
+<body>
+
+    <h1>This is the Current page i want to print</h1>
+   
+		<button type="button" onclick="document.getElementById('print').innerHTML=window.print()"> Print</button>
+	
+  <h1 id="print"></h2>
+
+</body>
+
+</html>
