@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>JavaScript to display current Date </title>
+	</head>
+  
+<body>
+
+    <h1>Printing current Date </h1>
+    
+    <script>
+		  var dt = new Date() //current date and time storing into dt 
+		  var date = dt.getDate() + "-" + (dt.getMonth() + 1) + "-" + dt.getFullYear()
+		  document.write(date)
+  	</script>  
+
+</body>
+
+</html>
