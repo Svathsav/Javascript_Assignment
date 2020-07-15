@@ -1,0 +1,41 @@
+Data type: 
+ Data type is defined as what type of data to store in the variable there are 5 types of data types available in java script:
+1) Number Datatype
+2) String Datatype
+3) Boolean Datatype
+4) Regular Datatype
+5) Arrays
+
+1. Number Data type:
+ var x = 36; //  x stores the decimal number value. so var is number data type
+ var x= 36.5; // y stores the floating number value
+ 
+2. String Data type :
+ strings are stored in variable using single or double quotes
+ 
+examlple:
+        var name="java script";
+        documnt.write("hello" + name ); // prints hello java script
+        
+3. Boolean Data type: only two value true or false
+        var x= true; // its not string if it is string we mention ""
+        
+4. Regular expression:
+                var x= 38;
+                var y= 55;
+                var z= x + y ; // this is regular expression
+                doument.write(z);
+               
+5. Array: 
+ An array is a special variable, which can hold more than one value at a time.
+If you have a list of items (a list of car names, for example), storing the cars in single variables could look like this
+var car1 = "Saab";
+var car2 = "Volvo";
+var car3 = "BMW";
+
+ Now its okay if you have 100 statements the code is more complexe seo use arrays it stores many values at a time with same data type
+ array index start from 0 to n-1;
+ creating an array 
+ var array_name = [item1, item2, ...];    
+ var cars =["saab", "volvo", "" BMW]; 
+ doxument.write(cars[0]); // accessing element in array 
