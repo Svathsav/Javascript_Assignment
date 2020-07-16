@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title>DAY 2 ASSIGNMENT </title>
+	</head>
+
+<body>
+    <h1> Takes input from the user and logs it in console </h1>
+    <script>
+		var name = prompt("Enter Your Name: ")  // First method
+		console.log(name);
+		var name2 = prompt("Enter You Age","Only 18+"); // giving placeholder
+		console.log(name2);
+	</script>  
+
+</body>
+</html>
