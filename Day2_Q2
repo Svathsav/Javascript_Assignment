@@ -1,0 +1,79 @@
+Methods of Strings and Arrays 
+
+Strings: 
+Strings in java script can be enclosed in  Single quotes 'hello', 
+Double quotes "Hello" 
+and (from ES2015, ES6) in Template Literals (backticks) `hello`.
+
+var a  = "Hello"; 
+var b  = 'world'; 
+var helloW = `Hello World`;   
+
+Concatenate strings:console.log(a + b); //Hello world
+
+Reverse String: reverseString('string'); // ginrts
+  
+Comparing Strings Lexicographically: console.log(a.localeCompare(b)); // -1
+
+Access character at index in string:
+var string = "Hello, World"; 
+console.log( string[4] ); // "o"
+
+Find length of the string
+console.log(text.length)
+
+// To change the case
+console.log(text.toLowerCase());
+console.log(text.toUpperCase());
+
+// Accessing the index
+console.log(text[5]); // 5th elemnt of index
+console.log(text.indexOf('o')); // o element of index value from starting
+console.log(text.lastIndexOf('o')) // o element of index value from ending
+
+console.log(text.charAt('12')); element at 12th position
+console.log(text.endsWith("well")); // true or false 
+
+console.log(text.split('e')); //spliting every e
+
+Sub string :
+var str = "Hello world!";
+var res = str.substring(1, 4); // ello
+
+Replace:
+
+Return a string where "world" is replaced with "java script":
+
+var str = "Visit world!";
+var res = str.replace("world", "javascript"); // Visit javascript
+
+Split:
+Extract parts of a string:
+var str = "Hello world!";
+var res = str.slice(0, 5);// Hello
+
+
+METHODS In Arrays
+// Array
+let arr = ['two', false, 12, ['1','2']];
+let arr2 = ['raj', 'ravi','reliance'];
+console.log(arr);
+
+
+console.log(Array.isArray(arr));
+// indexOf('value')
+
+console.log(arr.reverse()) // revesre the array
+
+console.log(arr[3]); // accesing element in the array
+
+console.log(arr.concat(arr2)); // concatenate 2 arrays
+
+
+// From the end
+console.log(arr2.pop());
+
+arr.push(ite,) // adds items to the end,
+arr.pop() // extracts an item from the end,
+arr.shift() //extracts an item from the beginning,
+arr.unshift(item) //adds items to the beginning.
