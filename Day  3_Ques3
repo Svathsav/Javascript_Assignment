@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>DAY  ASSIGNMENT </title>
+	</head>
+    <h1> Calculate marks and assign grade</h1>
+    <script>
+		function grade(){
+			var sub1=Number(document.getElementById("id1").value);
+			var sub2=Number(document.getElementById("id2").value);
+			var sub3=Number(document.getElementById("id3").value);
+			var sub4=Number(document.getElementById("id4").value);
+			var max_marks = 400;
+			var total = sub1 + sub2 + sub3 + sub4;
+			console.log(`Your Total marks is: ${total}`);
+			var percentage = ((total) / max_marks) * 100;
+			console.log(`Your percentage is: ${percentage}`);
+			if (percentage >= 90)  
+				grade = 'A'; 
+			else if (percentage >= 80 && percentage <= 89)  
+				grade = 'B';
+			else if (percentage >= 60 && percentage <= 79) 
+				grade = 'C';
+			else if (percentage >= 33 && percentage <= 59) 
+				grade = 'D'; 
+			else
+				grade = 'F'; 
+			alert(`Your grade  is: ${grade}`);
+		}
+	</script>
+	<body>
+		Enter Sub1 marks <input id="id1"><br />
+		Enter Sub2 marks <input id="id2"><br />
+		Enter Sub3 marks <input id="id3"><br />
+		Enter Sub4 marks <input id="id4"><br />
+		<button onclick="grade()"> Calculate Your grade </button>
+	</body>
+</html>
