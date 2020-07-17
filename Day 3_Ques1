@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>DAY3  ASSIGNMENT </title>
+	</head>
+    <h1> Takes input from the user and Check Whether the input is even or odd </h1>
+    <script>
+		function odd_even()
+		{
+			var n;
+			n=Number(document.getElementById("demo").value);
+			if(n%2==0)
+			{			
+				var result="Even Number";
+				console.log(result);
+			}
+			else
+			{
+				var result1="odd number";
+				console.log(result1);
+			}
+		}
+	</script>
+	<body>
+		Enter Any Number:<input id="demo"><br />
+		<button onclick="odd_even()">Find Answer</button>
+	</body>
+</html>
