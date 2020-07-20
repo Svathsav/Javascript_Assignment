@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>DAY4  ASSIGNMENT </title>
+	</head>
+    <h3> Create a for loop that iterates up to 100 while outputting "fizz" at multiples of 3, "buzz" at multiples of 5 and "fizzbuzz" at multiples of 3 and 5.  </h3>
+    <script>
+		function mutiple()
+		{
+			for(var i=1; i<=100; i++)
+			{
+				if(i%3==0 && i%5==0)
+					console.log(`${i} Number is mutiple of 3 and 5 so : Fizzbuzz`);
+				else if(i%3==0)
+					console.log(`${i} Number is mutiple of 3 so       : Fizz`);
+				else if(i%5==0)
+					console.log(`${i} Number is mutiple of 5 so       : buzz`);
+				else 
+					console.log(`${i} Number is not mutiple of 3 and 5`);
+			}
+		}
+	</script>
+	<body>
+		Check Here
+		<button onclick="mutiple()">Check result</button>
+	</body>
+</html>
