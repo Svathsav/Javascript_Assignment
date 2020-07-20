@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>DAY4  ASSIGNMENT </title>
+	</head>
+    <h1> Caluclator </h1>
+	<body> 
+	<form name="cal">
+		Enter first number:<input type="text" name="first"><br/> 
+		Enter second number:<input type="text" name="second"><br/>  
+		Addition: <input type="button" name="" value="Addition" onclick="add()"><br/>  
+		Substraction: <input type="button" name="" value="Substraction" onclick="sub()"><br/>  
+		Multiplication: <input type="button" name="" value="Multiplication" onclick="mul()"><br/>  
+		Division: <input type="button" name="" value="Division" onclick="div()"><br/> 
+		Squre root: <input type="button" name="" value="sqrt" onclick="sqrt()"><br/> 
+		
+	
+		Result:<input type="text" name="result"/><br/> 
+    <script type="text/javascript">
+			function add()
+			{
+				first=parseInt(cal.first.value);
+				second=parseInt(cal.second.value);
+				result=first+second;
+				cal.result.value=result;
+			}
+			function sub()
+			{
+				first=parseInt(cal.first.value);
+				second=parseInt(cal.second.value);
+				result=first-second;
+				cal.result.value=result;
+			}
+			function mul()
+			{
+				first=parseInt(cal.first.value);
+				second=parseInt(cal.second.value);
+				result=first*second;
+				cal.result.value=result;
+			}
+			function div()
+			{
+				first=parseInt(cal.first.value);
+				second=parseInt(cal.second.value);
+				result=first/second;
+				cal.result.value=result;
+			}
+			function sqrt()
+			{
+				first=parseInt(cal.first.value);
+				second=parseInt(cal.second.value);
+				result=Math.sqrt(first)
+				cal.result.value=result;
+			}
+		
+	</script>
+
+	</body>
+</html>
