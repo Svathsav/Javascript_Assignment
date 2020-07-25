@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>DAY5  ASSIGNMENT </title>
+	</head>
+	<body> 
+		<input type="number" id="ipNum" min="0" onkeypress="return runscript(event)" >
+		<button id="submit" onclick="createArr()">Submit</button>
+	<script>
+		function runScript(e){
+			return (event.charcode == 8 || event.charCode == 0) ? null :) event.charCode >=48 && vent.charCode <= 57;
+		}
+		function createArr(){
+			userInp = document.getElementById("ipNum").value;
+			cosole.log(userInp);
+			arr1 = [...Array(parseInt(userInp)).keys()];
+			oddArr = arr1.filter(e1 => e1%2 !==0 );
+			cuberArr = oddArr.map(e1 => Math.pow(e1,3));
+			console.log('cubeArr:',cubeArr);
+		
+	</script>
+	</body>
+</html>
