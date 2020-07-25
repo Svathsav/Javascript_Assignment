@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>DAY6  ASSIGNMENT </title>
+	</head>
+    <h3> Display multiplication table </h3>
+    <script>
+		function mul()
+		{
+			var n;
+			n=Number(document.getElementById("num1").value);
+			s=Number(document.getElementById("num2").value);
+			
+			console.log(` Multiplication Table of ${n}`);
+			for(var i=1; i<=s; i++)
+			{
+					var number = n * i;
+					console.log(`${n} * ${i} = ${number} `);
+			}
+		}
+	</script>
+	<body>
+		Enter which table do u want :<input id="num1"><br />
+		Size of the table  :<input id="num2"><br />
+		
+		<button onclick="mul()">Check result</button>
+	</body>
+</html>
